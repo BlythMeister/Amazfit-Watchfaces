@@ -23,9 +23,9 @@ A feature-rich watchface designed for the Amazfit Bip Max, providing a comprehen
 - High-contrast white text for visibility
 
 **Preview:**
-![Overview Preview](https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/bip%20max/Overview/Preview.png)
+![Overview Preview](https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview/Preview.png)
 
-![Overview Animation](https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/bip%20max/Overview/Preview.gif)
+![Overview Animation](https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview/Preview.gif)
 
 **Display Layout:**
 - **Top Section:** Humidity, Weather temperature, UV Index
@@ -43,9 +43,9 @@ A simplified text-focused variant of the Overview watchface, emphasizing legibil
 - Optimized for users who prefer simplicity over graphical elements
 
 **Preview:**
-![Overview Text Only Preview](https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/bip%20max/Overview-TextOnly/Preview.png)
+![Overview Text Only Preview](https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20TextOnly/Preview.png)
 
-![Overview Text Only Animation](https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/bip%20max/Overview-TextOnly/Preview.gif)
+![Overview Text Only Animation](https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20TextOnly/Preview.gif)
 
 #### Overview - Colourful
 A vibrant text-based variant of the Overview watchface that maintains the simplicity and readability of the Text Only version while adding colorful data visualization.
@@ -58,9 +58,9 @@ A vibrant text-based variant of the Overview watchface that maintains the simpli
 - Optimized for users who want clarity with visual flair
 
 **Preview:**
-![Overview Colourful Preview](https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/bip%20max/Overview-Colourful/Preview.png)
+![Overview Colourful Preview](https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Colourful/Preview.png)
 
-![Overview Colourful Animation](https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/bip%20max/Overview-Colourful/Preview.gif)
+![Overview Colourful Animation](https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Colourful/Preview.gif)
 
 ---
 
@@ -72,22 +72,21 @@ Amazfit-Watchfaces/
 ├── LICENSE
 ├── .gitignore
 └── src/
-    └── bip max/
-        ├── Overview/
-        │   ├── Overview.json          # Watchface configuration
-        │   ├── Preview.png            # Static preview image
-        │   ├── Preview.gif            # Animated preview
-        │   └── assets/                # Additional resources
-        ├── Overview-TextOnly/
-        │   ├── Overview-TextOnly.json  # Watchface configuration
-        │   ├── Preview.png             # Static preview image
-        │   ├── Preview.gif             # Animated preview
-        │   └── assets/                 # Additional resources
-        └── Overview-Colourful/
-            ├── Overview-Colourful.json # Watchface configuration
-            ├── Preview.png             # Static preview image
-            ├── Preview.gif             # Animated preview
-            └── assets/                 # Additional resources
+    ├── Bip Max - Overview/
+    │   ├── Bip Max - Overview.json      # Watchface configuration
+    │   ├── Preview.png                 # Static preview image
+    │   ├── Preview.gif                 # Animated preview
+    │   └── assets/                     # Additional resources
+    ├── Bip Max - Overview - TextOnly/
+    │   ├── Bip Max - Overview - TextOnly.json  # Watchface configuration
+    │   ├── Preview.png                 # Static preview image
+    │   ├── Preview.gif                 # Animated preview
+    │   └── assets/                     # Additional resources
+    └── Bip Max - Overview - Colourful/
+        ├── Bip Max - Overview - Colourful.json # Watchface configuration
+        ├── Preview.png                 # Static preview image
+        ├── Preview.gif                 # Animated preview
+        └── assets/                     # Additional resources
 ```
 
 ## Technical Details
