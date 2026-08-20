@@ -1,8 +1,9 @@
 ﻿{
   "WatchFace_Info": {
     "DeviceName": "Bip Max",
-    "WatchFaceId": 213989,
+    "WatchFaceId": 1124003,
     "Preview": "Preview",
+    "WatchFaceName": "Overview",
     "WatchFaceVersion": 1
   },
   "ScreenNormal": {
