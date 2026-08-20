@@ -4,12 +4,12 @@ A collection of custom watchfaces for the **Amazfit Bip Max**. Each design is st
 
 ## Watchfaces
 
-| Design | Description | Previews | Files |
+| Design | Description | Previews | Install Url |
 | --- | --- | --- | --- |
-| [Overview](src/Bip%20Max%20-%20Overview) | The main overview design, combining time, weather, humidity, UV index, PAI, stand hours, activity data and device-status indicators. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview/Preview.png" width="180" alt="Overview static preview"><br><img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview/Preview.gif" width="180" alt="Overview animated preview"> | [JSON configuration](src/Bip%20Max%20-%20Overview/Bip%20Max%20-%20Overview.json) |
-| [Overview – TextOnly](src/Bip%20Max%20-%20Overview%20-%20TextOnly) | A text-focused variant of the overview layout, using a simpler presentation of the available watchface data. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20TextOnly/Preview.png" width="180" alt="Overview TextOnly static preview"><br><img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20TextOnly/Preview.gif" width="180" alt="Overview TextOnly animated preview"> | [JSON configuration](src/Bip%20Max%20-%20Overview%20-%20TextOnly/Bip%20Max%20-%20Overview%20-%20TextOnly.json) |
-| [Overview – Colourful](src/Bip%20Max%20-%20Overview%20-%20Colourful) | A colourful variant of the overview design with colour accents applied to the displayed values. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Colourful/Preview.png" width="180" alt="Overview Colourful static preview"><br><img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Colourful/Preview.gif" width="180" alt="Overview Colourful animated preview"> | [JSON configuration](src/Bip%20Max%20-%20Overview%20-%20Colourful/Bip%20Max%20-%20Overview%20-%20Colourful.json) |
-| [Overview – Bubbles](src/Bip%20Max%20-%20Overview%20-%20Bubbles) | A bubble-style variant of the overview design, with its own JSON configuration and supporting asset set. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Bubbles/Preview.png" width="180" alt="Overview Bubbles static preview"><br><img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Bubbles/Preview.gif" width="180" alt="Overview Bubbles animated preview"> | [JSON configuration](src/Bip%20Max%20-%20Overview%20-%20Bubbles/Bip%20Max%20-%20Overview%20-%20Bubbles.json) |
+| [Overview](src/Bip%20Max%20-%20Overview) | The main overview design, combining time, weather, humidity, UV index, PAI, stand hours, activity data and device-status indicators. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview/Preview.gif" width="180" alt="Overview animated preview"> | TBC |
+| [Overview – TextOnly](src/Bip%20Max%20-%20Overview%20-%20TextOnly) | A text-focused variant of the overview layout, using a simpler presentation of the available watchface data. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20TextOnly/Preview.gif" width="180" alt="Overview TextOnly animated preview"> | TBC |
+| [Overview – Colourful](src/Bip%20Max%20-%20Overview%20-%20Colourful) | A colourful variant of the overview design with colour accents applied to the displayed values. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Colourful/Preview.gif" width="180" alt="Overview Colourful animated preview"> | TBC |
+| [Overview – Bubbles](src/Bip%20Max%20-%20Overview%20-%20Bubbles) | A bubble-style variant of the overview design, with its own JSON configuration and supporting asset set. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Bubbles/Preview.gif" width="180" alt="Overview Bubbles animated preview"> | TBC |
 
 The previews above are intentionally displayed at a reduced width. Open an image or design directory to view the full-size files and additional assets.
 
@@ -23,24 +23,8 @@ Amazfit-Watchfaces/
 ├── LICENSE
 ├── README.md
 └── src/
-    ├── Bip Max - Overview/
-    │   ├── Bip Max - Overview.json
-    │   ├── Preview.png
-    │   ├── Preview.gif
-    │   ├── Preview - icons.png
-    │   └── assets/
-    ├── Bip Max - Overview - TextOnly/
-    │   ├── Bip Max - Overview - TextOnly.json
-    │   ├── Preview.png
-    │   ├── Preview.gif
-    │   └── assets/
-    ├── Bip Max - Overview - Colourful/
-    │   ├── Bip Max - Overview - Colourful.json
-    │   ├── Preview.png
-    │   ├── Preview.gif
-    │   └── assets/
-    └── Bip Max - Overview - Bubbles/
-        ├── Bip Max - Overview - Bubbles.json
+    └── {DEVICE} - {Name}/
+        ├── {DEVICE} - {Name}.json
         ├── Preview.png
         ├── Preview.gif
         └── assets/
@@ -51,8 +35,6 @@ Each `assets/` directory contains the resources used by its watchface, including
 ## Editing and Installation
 
 The watchface JSON files can be edited with the [Watch face editor for Amazfit watches on ZeppOS](https://github.com/SashaCX75/Watch-face-editor-for-Amazfit-watch-on-ZeppOS).
-
-Installation instructions are not currently included in this repository.
 
 ## Contributing
 
