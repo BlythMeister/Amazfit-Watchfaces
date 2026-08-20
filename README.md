@@ -109,10 +109,7 @@ Each watchface is defined by a JSON configuration file that specifies:
 
 To install these watchfaces on your Amazfit device:
 
-1. Connect your smartwatch to your computer
-2. Use the official Amazfit app or Zepp app for watchface management
-3. Import the desired watchface configuration from the `src/` directory
-4. Sync with your device
+** TBC **
 
 ## Customization
 
@@ -123,7 +120,7 @@ Each watchface JSON configuration can be modified to:
 - Modify fonts and text sizes
 - Customize health indicator thresholds
 
-For detailed customization, refer to the Amazfit watchface development documentation.
+Created using the GUI editor by @SashaCX75 - https://github.com/SashaCX75/Watch-face-editor-for-Amazfit-watch-on-ZeppOS
 
 ## Features
 
