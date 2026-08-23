@@ -4,7 +4,7 @@
     "WatchFaceId": 1124205,
     "Preview": "Preview",
     "WatchFaceName": "Overview - Bubbles",
-    "WatchFaceVersion": 1
+    "WatchFaceVersion": 2
   },
   "ScreenNormal": {
     "Background": {
@@ -1003,7 +1003,7 @@
           "show_level": "",
           "X": 200,
           "Y": 12,
-          "img_First": "icon_weather_1",
+          "img_First": "icon_weather_0",
           "image_length": 29,
           "img_error": "",
           "alpha": 255
