@@ -1,6 +1,6 @@
 # Amazfit Watchfaces
 
-A collection of custom watchfaces for the **Amazfit Bip Max**. Each design is stored as a JSON configuration alongside its preview images and supporting assets.
+A collection of custom watchfaces for Amazfit devices. Each design is stored as a JSON configuration alongside its preview images and supporting assets.
 
 ## Watchfaces
 
@@ -10,10 +10,10 @@ A collection of custom watchfaces for the **Amazfit Bip Max**. Each design is st
 | [Overview – TextOnly](src/Bip%20Max%20-%20Overview%20-%20TextOnly) | Bip Max | V2 | A text-focused variant of the overview layout, using a simpler presentation of the available watchface data. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20TextOnly/Preview.gif" width="180" alt="Overview TextOnly animated preview"> | Official - Search `1124185` on Zepp watch face store<br/><br/>Sideload - [amazfitwatchfaces.com](https://amazfitwatchfaces.com/bip/view/45505) |
 | [Overview – Colourful](src/Bip%20Max%20-%20Overview%20-%20Colourful) | Bip Max | V2 | A colourful variant of the overview design with colour accents applied to the displayed values. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Colourful/Preview.gif" width="180" alt="Overview Colourful animated preview"> | Official - Search `1124184` on Zepp watch face store<br/><br/>Sideload - [amazfitwatchfaces.com](https://amazfitwatchfaces.com/bip/view/45506) |
 | [Overview – Bubbles](src/Bip%20Max%20-%20Overview%20-%20Bubbles) | Bip Max | V2 | A bubble-style variant of the overview design, with its own JSON configuration and supporting asset set. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Bubbles/Preview.gif" width="180" alt="Overview Bubbles animated preview"> | Official - Search `1124205` on Zepp watch face store<br/><br/>Sideload - [amazfitwatchfaces.com](https://amazfitwatchfaces.com/bip/view/45508) |
-| [Overview – SteamPunk](src/Bip%20Max%20-%20Overview%20-%20SteamPunk) | Bip Max | V1 | A steampunk variant of the overview design, with its own JSON configuration and supporting asset set. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20SteamPunk/Preview.gif" width="180" alt="Overview SteamPunk animated preview"> | TBC |
-| [Overview – Circuit](src/Bip%20Max%20-%20Overview%20-%20Circuit) | Bip Max | V1 | A circuit variant of the overview design, with its own JSON configuration and supporting asset set. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Circuit/Preview.gif" width="180" alt="Overview Circuit animated preview"> | TBC |
-| [Overview – Silver](src/Bip%20Max%20-%20Overview%20-%20Silver) | Bip Max | V1 | A silver variant of the overview design, with its own JSON configuration and supporting asset set. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Silver/Preview.gif" width="180" alt="Overview Circuit animated preview"> | TBC |
-| [Overview – Gold](src/Bip%20Max%20-%20Overview%20-%20Gold) | Bip Max | V1 | A gold variant of the overview design, with its own JSON configuration and supporting asset set. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Gold/Preview.gif" width="180" alt="Overview Circuit animated preview"> | TBC |
+| [Overview – SteamPunk](src/Bip%20Max%20-%20Overview%20-%20SteamPunk) | Bip Max | V1 | A steampunk variant of the overview design, with its own JSON configuration and supporting asset set. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20SteamPunk/Preview.gif" width="180" alt="Overview SteamPunk animated preview"> | Official - Search `1125417` on Zepp watch face store<br/><br/>Sideload - [amazfitwatchfaces.com](https://amazfitwatchfaces.com/bip/view/45549) |
+| [Overview – Circuit](src/Bip%20Max%20-%20Overview%20-%20Circuit) | Bip Max | V1 | A circuit variant of the overview design, with its own JSON configuration and supporting asset set. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Circuit/Preview.gif" width="180" alt="Overview Circuit animated preview"> | Official - Search `1125414` on Zepp watch face store<br/><br/>Sideload - [amazfitwatchfaces.com](https://amazfitwatchfaces.com/bip/view/45546) |
+| [Overview – Silver](src/Bip%20Max%20-%20Overview%20-%20Silver) | Bip Max | V1 | A silver variant of the overview design, with its own JSON configuration and supporting asset set. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Silver/Preview.gif" width="180" alt="Overview Silver animated preview"> | Official - Search `1125415` on Zepp watch face store<br/><br/>Sideload - [amazfitwatchfaces.com](https://amazfitwatchfaces.com/bip/view/45548) |
+| [Overview – Gold](src/Bip%20Max%20-%20Overview%20-%20Gold) | Bip Max | V1 | A gold variant of the overview design, with its own JSON configuration and supporting asset set. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Gold/Preview.gif" width="180" alt="Overview Gold animated preview"> | Official - Search `1125416` on Zepp watch face store<br/><br/>Sideload - [amazfitwatchfaces.com](https://amazfitwatchfaces.com/bip/view/45547) |
 
 The previews above are intentionally displayed at a reduced width. Open an image or design directory to view the full-size files and additional assets.
 
@@ -34,7 +34,7 @@ Amazfit-Watchfaces/
         └── assets/
 ```
 
-Each `assets/` directory contains the resources used by its watchface, including backgrounds, fonts and icons. The configurations target the **432 × 514** Bip Max display and use the Rajdhani SemiBold font included in the repository.
+Each `assets/` directory contains the resources used by its watchface, including backgrounds, fonts and icons.
 
 ## Editing and Installation
 
