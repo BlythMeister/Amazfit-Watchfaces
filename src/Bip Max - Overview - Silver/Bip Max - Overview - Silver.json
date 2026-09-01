@@ -1134,7 +1134,7 @@
           "end_angle": 180,
           "mode": 0
         },
-        "DurationSleep_total": {
+        "DurationSleep": {
           "position": 6,
           "visible": true,
           "show_level": "",
@@ -1166,7 +1166,7 @@
           "end_angle": 180,
           "mode": 0
         },
-        "DurationSleep": {
+        "DurationSleep_total": {
           "position": 5,
           "visible": false,
           "show_level": "",
