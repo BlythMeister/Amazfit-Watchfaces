@@ -10,7 +10,7 @@ description: "Amazfit Bip 5 Watchfaces"
 <table>
   <tr>
     <td width="190" valign="top">
-      <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%205%20-%20Overview%20-%20TextOnly/Preview.gif" width="180" alt="Overview TextOnly animated preview">
+      <img nonce="nonceplaceholder" src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%205%20-%20Overview%20-%20TextOnly/Preview.gif" width="180" alt="Overview TextOnly animated preview">
     </td>
     <td valign="top">
       <p>A clean, information-first layout that presents the time and watch data using text labels and values without decorative icons.</p>
@@ -27,7 +27,7 @@ description: "Amazfit Bip 5 Watchfaces"
 <table>
   <tr>
     <td width="190" valign="top">
-      <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%205%20-%20Overview%20-%20Colourful/Preview.gif" width="180" alt="Overview Colourful animated preview">
+      <img nonce="nonceplaceholder" src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%205%20-%20Overview%20-%20Colourful/Preview.gif" width="180" alt="Overview Colourful animated preview">
     </td>
     <td valign="top">
       <p>A vivid layout that uses contrasting colour accents to separate the time, health, activity, weather, and device-status information.</p>
