@@ -10,7 +10,7 @@ description: "Amazfit Active Max Watchfaces"
 <table>
   <tr>
     <td width="190" valign="top">
-      <img nonce="nonceplaceholder" src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Active%20Max%20-%20Overview%20-%20TextOnly/Preview.gif" width="180" alt="Overview TextOnly animated preview">
+      <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Active%20Max%20-%20Overview%20-%20TextOnly/Preview.gif" width="180" alt="Overview TextOnly animated preview">
     </td>
     <td valign="top">
       <p>A compact text-based layout for Active Max that prioritizes clear time, weather, health, activity, and device-status readings.</p>
@@ -27,7 +27,7 @@ description: "Amazfit Active Max Watchfaces"
 <table>
   <tr>
     <td width="190" valign="top">
-      <img nonce="nonceplaceholder" src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Active%20Max%20-%20Overview%20-%20Colourful/Preview.gif" width="180" alt="Overview Colourful animated preview">
+      <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Active%20Max%20-%20Overview%20-%20Colourful/Preview.gif" width="180" alt="Overview Colourful animated preview">
     </td>
     <td valign="top">
       <p>A bright Active Max layout that uses colour-coded accents to distinguish the time, health, activity, weather, and device-status readings.</p>
