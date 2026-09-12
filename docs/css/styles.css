@@ -5,11 +5,10 @@ html {
 body {
     padding: 15px;
     margin: 0;
-    background: rgb(235,238,174);
-    background: -moz-radial-gradient(circle, rgba(235,238,174,1) 0%, rgba(151,233,148,1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(235,238,174,1) 0%, rgba(151,233,148,1) 100%);
-    background: radial-gradient(circle, rgba(235,238,174,1) 0%, rgba(151,233,148,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ebeeae",endColorstr="#97e994",GradientType=1);
+    background: #000000;
+	background: -moz-radial-gradient(center, #000000 0%, #7A55BE 50%, #5484D0 100%);
+	background: -webkit-radial-gradient(center, #000000 0%, #7A55BE 50%, #5484D0 100%);
+	background: radial-gradient(ellipse at center, #000000 0%, #7A55BE 50%, #5484D0 100%);
     background-attachment: fixed;
 }
 
