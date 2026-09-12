@@ -224,3 +224,12 @@ a.far:hover {
         max-width: 800px;
     }
 }
+
+.watch-desc {
+	padding-left:10px;
+	vertical-align: middle;
+}
+
+.watch-img {
+	vertical-align: middle;
+}
