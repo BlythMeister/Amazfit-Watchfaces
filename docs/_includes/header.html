@@ -1,21 +1,75 @@
 <div class="col-lg-12">
     <h1>
-        Amazfit Watchface Collection
+        Amazfit Watchface By Chris
     </h1>
 </div>
 <div class="col-lg-12 nav">
+    <!-- Desktop Navigation -->
     <ul class="nav nav-pills nav-justified hidden-xs">
         <li role="presentation"><a href="{{ site.url }}/">Home</a></li>
+
+        <!-- Bip Series Dropdown -->
+        <li class="dropdown" role="presentation">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Bip Series <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="{{ site.url }}/devices/bip-5">Bip 5</a></li>
+                <li><a href="{{ site.url }}/devices/bip-6">Bip 6</a></li>
+                <li><a href="{{ site.url }}/devices/bip-max">Bip Max</a></li>
+            </ul>
+        </li>
+
+        <!-- Active Series Dropdown -->
+        <li class="dropdown" role="presentation">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Active Series <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="{{ site.url }}/devices/active-2">Active 2</a></li>
+                <li><a href="{{ site.url }}/devices/active-max">Active Max</a></li>
+            </ul>
+        </li>
+
+        <!-- Balance Series Dropdown -->
+        <li class="dropdown" role="presentation">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Balance Series <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="{{ site.url }}/devices/balance-3">Balance 3</a></li>
+            </ul>
+        </li>
+
         <li role="presentation"><a href="{{ site.url }}/donations-mailing-list">Donations &amp; Mailing List</a></li>
         <li role="presentation"><a href="{{ site.url }}/help">Help</a></li>
     </ul>
+
+    <!-- Mobile Navigation -->
     <ul class="nav nav-pills nav-justified hidden-sm hidden-md hidden-lg">
         <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Navigation <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Navigation <span class="caret"></span></a>
             <ul class="dropdown-menu dropdown-menu-justified">
                 <li role="presentation"><a href="{{ site.url }}/">Home</a></li>
+
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Bip Series</li>
+                <li><a href="{{ site.url }}/devices/bip-5">Bip 5</a></li>
+                <li><a href="{{ site.url }}/devices/bip-6">Bip 6</a></li>
+                <li><a href="{{ site.url }}/devices/bip-max">Bip Max</a></li>
+
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Active Series</li>
+                <li><a href="{{ site.url }}/devices/active-2">Active 2</a></li>
+                <li><a href="{{ site.url }}/devices/active-max">Active Max</a></li>
+
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Balance Series</li>
+                <li><a href="{{ site.url }}/devices/balance-3">Balance 3</a></li>
+
+                <li role="separator" class="divider"></li>
                 <li role="presentation"><a href="{{ site.url }}/donations-mailing-list">Donations &amp; Mailing List</a></li>
-				<li role="presentation"><a href="{{ site.url }}/icon-guide">Icon Guide</a></li>
+                <li role="presentation"><a href="{{ site.url }}/help">Help</a></li>
             </ul>
         </li>
     </ul>

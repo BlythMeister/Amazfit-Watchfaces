@@ -3,7 +3,7 @@ title: Home
 description: "Amazfit Watchfaces"
 ---
 
-A collection of custom watchfaces for Amazfit devices. Each design is stored as a JSON configuration alongside its preview images and supporting assets.
+A collection of custom watchfaces for Amazfit devices.
 
 ## Installation
 
