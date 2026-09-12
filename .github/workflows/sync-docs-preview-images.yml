@@ -1,11 +1,13 @@
-name: Sync docs preview images
+name: Sync docs from README
 
 on:
   push:
     branches:
       - '**'
     paths:
+      - 'README.md'
       - 'src/**/Preview.gif'
+      - 'scripts/sync_docs_from_readme.py'
       - '.github/workflows/sync-docs-preview-images.yml'
   workflow_dispatch:
 
@@ -13,7 +15,7 @@ permissions:
   contents: write
 
 jobs:
-  sync-preview-images:
+  sync-docs:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
 
@@ -21,41 +23,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Sync preview gifs into docs/images
+      - name: Sync docs artifacts from README
+        run: |
+          set -euo pipefail
+          python3 scripts/sync_docs_from_readme.py
+
+      - name: Commit generated docs updates
         run: |
           set -euo pipefail
 
-          mkdir -p docs/images
-          declare -A expected_outputs=()
-
-          mapfile -t preview_files < <(find src -mindepth 2 -maxdepth 2 -type f -name 'Preview.gif' | sort)
-
-          for preview_path in "${preview_files[@]}"; do
-            folder_name="$(basename "$(dirname "$preview_path")")"
-            output_name="${folder_name// /}.gif"
-            output_path="docs/images/${output_name}"
-
-            cp "$preview_path" "$output_path"
-            expected_outputs["$output_path"]=1
-          done
-
-          while IFS= read -r existing_gif; do
-            if [[ -z "${expected_outputs["$existing_gif"]+x}" ]]; then
-              rm "$existing_gif"
-            fi
-          done < <(find docs/images -maxdepth 1 -type f -name '*.gif' | sort)
-
-      - name: Commit updated docs images
-        run: |
-          set -euo pipefail
-
-          if git diff --quiet -- docs/images; then
-            echo 'No docs image changes to commit.'
+          if git diff --quiet -- docs; then
+            echo 'No docs changes to commit.'
             exit 0
           fi
 
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add docs/images
-          git commit -m 'chore(docs): sync preview gifs into docs images'
+          git add docs
+          git commit -m 'chore(docs): sync docs pages and previews from README'
           git push

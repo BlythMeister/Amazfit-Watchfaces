@@ -7,7 +7,7 @@ A collection of custom watchfaces for Amazfit devices.
 
 ## Installation
 
-Each face can be installed via a sideload from [amazfitwatchfaces.com](amazfitwatchfaces.com) or by searching the ID number in the Zepp watchface store within the Zepp app.
+Each face can be installed via a sideload from [amazfitwatchfaces.com](https://amazfitwatchfaces.com) or by searching the ID number in the Zepp watchface store within the Zepp app.
 
 ## Devices
 
@@ -25,4 +25,3 @@ Each face can be installed via a sideload from [amazfitwatchfaces.com](amazfitwa
 ### Balance Series
 
 * [Balance 3](devices/balance-3)
-
