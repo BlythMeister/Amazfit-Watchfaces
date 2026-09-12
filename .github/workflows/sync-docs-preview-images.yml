@@ -26,19 +26,21 @@ jobs:
           set -euo pipefail
 
           mkdir -p docs/images
+          declare -A expected_outputs=()
 
           mapfile -t preview_files < <(find src -mindepth 2 -maxdepth 2 -type f -name 'Preview.gif' | sort)
 
           for preview_path in "${preview_files[@]}"; do
             folder_name="$(basename "$(dirname "$preview_path")")"
-            cp "$preview_path" "docs/images/${folder_name}.gif"
+            output_name="${folder_name// /}.gif"
+            output_path="docs/images/${output_name}"
+
+            cp "$preview_path" "$output_path"
+            expected_outputs["$output_path"]=1
           done
 
           while IFS= read -r existing_gif; do
-            gif_name="$(basename "$existing_gif")"
-            source_folder="${gif_name%.gif}"
-
-            if [[ ! -f "src/${source_folder}/Preview.gif" ]]; then
+            if [[ -z "${expected_outputs["$existing_gif"]+x}" ]]; then
               rm "$existing_gif"
             fi
           done < <(find docs/images -maxdepth 1 -type f -name '*.gif' | sort)

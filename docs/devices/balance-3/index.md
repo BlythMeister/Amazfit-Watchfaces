@@ -10,7 +10,7 @@ description: "Amazfit Balance 3 Watchfaces"
 <table>
   <tr>
     <td class="watch-img">
-      <img src="/images/Balance%203%20-%20Overview%20-%20TextOnly.gif" alt="Overview TextOnly animated preview">
+      <img src="/images/Balance3-Overview-TextOnly.gif" alt="Overview TextOnly animated preview">
     </td>
     <td class="watch-desc">
       <p>A compact text-based layout for Balance 3 that prioritizes clear time, weather, health, activity, and device-status readings.</p>
@@ -27,7 +27,7 @@ description: "Amazfit Balance 3 Watchfaces"
 <table>
   <tr>
     <td class="watch-img">
-      <img src="/images/Balance%203%20-%20Overview%20-%20Colourful.gif" alt="Overview Colourful animated preview">
+      <img src="/images/Balance3-Overview-Colourful.gif" alt="Overview Colourful animated preview">
     </td>
     <td class="watch-desc">
       <p>A bright Balance 3 layout that uses colour-coded accents to distinguish the time, health, activity, weather, and device-status readings.</p>
