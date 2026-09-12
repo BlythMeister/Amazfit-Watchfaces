@@ -1,4 +1,4 @@
-name: Sync Docs
+name: Sync Docs From README
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
       - 'README.md'
       - 'src/**/Preview.gif'
       - 'scripts/sync_docs_from_readme.py'
-      - '.github/workflows/sync-docs-preview-images.yml'
+      - '.github/workflows/sync-docs-from-readme.yml'
   workflow_dispatch:
 
 permissions:
