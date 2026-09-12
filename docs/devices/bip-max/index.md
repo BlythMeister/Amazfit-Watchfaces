@@ -10,7 +10,7 @@ description: "Amazfit Bip Max Watchfaces"
 <table>
   <tr>
     <td width="190" valign="top">
-      <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Icons/Preview.gif" width="180" alt="Overview Icons animated preview">
+      <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Icons/Preview.gif" alt="Overview Icons animated preview">
     </td>
     <td valign="top">
       <p>A data-rich layout that pairs prominent icons with time, weather, humidity, UV index, PAI, stand hours, activity metrics, and device-status indicators.</p>
@@ -27,7 +27,7 @@ description: "Amazfit Bip Max Watchfaces"
 <table>
   <tr>
     <td width="190" valign="top">
-      <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20TextOnly/Preview.gif" width="180" alt="Overview TextOnly animated preview">
+      <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20TextOnly/Preview.gif" alt="Overview TextOnly animated preview">
     </td>
     <td valign="top">
       <p>A clean, information-first layout that presents the time and watch data using text labels and values without decorative icons.</p>
@@ -44,7 +44,7 @@ description: "Amazfit Bip Max Watchfaces"
 <table>
   <tr>
     <td width="190" valign="top">
-      <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Colourful/Preview.gif" width="180" alt="Overview Colourful animated preview">
+      <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Colourful/Preview.gif" alt="Overview Colourful animated preview">
     </td>
     <td valign="top">
       <p>A vivid layout that uses contrasting colour accents to separate the time, health, activity, weather, and device-status information.</p>
@@ -61,7 +61,7 @@ description: "Amazfit Bip Max Watchfaces"
 <table>
   <tr>
     <td width="190" valign="top">
-      <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Bubbles/Preview.gif" width="180" alt="Overview Bubbles animated preview">
+      <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Bubbles/Preview.gif" alt="Overview Bubbles animated preview">
     </td>
     <td valign="top">
       <p>A playful layout that places the watch data inside rounded bubble elements, giving the time, conditions, activity, and status readings a softer visual style.</p>
@@ -78,7 +78,7 @@ description: "Amazfit Bip Max Watchfaces"
 <table>
   <tr>
     <td width="190" valign="top">
-      <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20SteamPunk/Preview.gif" width="180" alt="Overview SteamPunk animated preview">
+      <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20SteamPunk/Preview.gif" alt="Overview SteamPunk animated preview">
     </td>
     <td valign="top">
       <p>A mechanical, industrial layout with steampunk-inspired styling for displaying the time, conditions, activity metrics, and device status.</p>
@@ -95,7 +95,7 @@ description: "Amazfit Bip Max Watchfaces"
 <table>
   <tr>
     <td width="190" valign="top">
-      <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Circuit/Preview.gif" width="180" alt="Overview Circuit animated preview">
+      <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Circuit/Preview.gif" alt="Overview Circuit animated preview">
     </td>
     <td valign="top">
       <p>A technical, neon-inspired layout that frames the time, weather, activity, and status information with circuit-board detailing.</p>
@@ -112,7 +112,7 @@ description: "Amazfit Bip Max Watchfaces"
 <table>
   <tr>
     <td width="190" valign="top">
-      <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Silver/Preview.gif" width="180" alt="Overview Silver animated preview">
+      <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Silver/Preview.gif" alt="Overview Silver animated preview">
     </td>
     <td valign="top">
       <p>A polished monochrome layout with silver-toned styling that keeps the time and watch metrics crisp and understated.</p>
@@ -129,7 +129,7 @@ description: "Amazfit Bip Max Watchfaces"
 <table>
   <tr>
     <td width="190" valign="top">
-      <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Gold/Preview.gif" width="180" alt="Overview Gold animated preview">
+      <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%20Max%20-%20Overview%20-%20Gold/Preview.gif" alt="Overview Gold animated preview">
     </td>
     <td valign="top">
       <p>A warm metallic layout with gold-toned accents that gives the time, health, activity, and status information a premium appearance.</p>
