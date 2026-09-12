@@ -231,5 +231,28 @@ a.far:hover {
 }
 
 .watch-img {
-	vertical-align: middle;
+  vertical-align: middle;
+}
+
+.watch-img img {
+  height: auto;
+  display: block; /* prevents extra inline whitespace under the image */
+}
+
+@media (max-width: 990px) {
+  .watch-img img {
+    width: 200px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .watch-img img {
+    width: 360px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .watch-img img {
+    width: 400px;
+  }
 }
