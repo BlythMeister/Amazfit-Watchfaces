@@ -1,0 +1,44 @@
+name: Sync Docs From README
+
+on:
+  push:
+    branches:
+      - '**'
+    paths:
+      - 'README.md'
+      - 'src/**/Preview.gif'
+      - 'scripts/sync_docs_from_readme.py'
+      - '.github/workflows/sync-docs-from-readme.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-docs:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Sync docs artifacts from README
+        run: |
+          set -euo pipefail
+          python3 scripts/sync_docs_from_readme.py
+
+      - name: Commit generated docs updates
+        run: |
+          set -euo pipefail
+
+          if git diff --quiet -- docs; then
+            echo 'No docs changes to commit.'
+            exit 0
+          fi
+
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add docs
+          git commit -m 'chore(docs): sync docs pages and previews from README'
+          git push
