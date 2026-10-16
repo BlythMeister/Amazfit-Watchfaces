@@ -15,6 +15,13 @@ A collection of custom watchfaces for Amazfit devices. Each design is stored as 
 | [Overview – TextOnly](src/Bip%205%20-%20Overview%20-%20TextOnly) | V1 | A clean, information-first layout that presents the time and watch data using text labels and values without decorative icons. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%205%20-%20Overview%20-%20TextOnly/Preview.gif" width="180" alt="Overview TextOnly animated preview"> | Official - Search `1125862` on Zepp watch face store<br/><br/>Sideload - [amazfitwatchfaces.com](https://amazfitwatchfaces.com/bip/view/45565) |
 | [Overview – Colourful](src/Bip%205%20-%20Overview%20-%20Colourful) | V1 | A vivid layout that uses contrasting colour accents to separate the time, health, activity, weather, and device-status information. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%205%20-%20Overview%20-%20Colourful/Preview.gif" width="180" alt="Overview Colourful animated preview"> | Official - Search `1125863` on Zepp watch face store<br/><br/>Sideload - [amazfitwatchfaces.com](https://amazfitwatchfaces.com/bip/view/45564) |
 
+#### Bip 5 Unity
+
+| Design | Current Version | Description | Previews | Installation |
+| --- | --- | --- | --- | --- |
+| [Overview – TextOnly](src/Bip%205%20Unity%20-%20Overview%20-%20TextOnly) | V1 | A clean, information-first layout that presents the time and watch data using text labels and values without decorative icons. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%205%20Unity%20-%20Overview%20-%20TextOnly/Preview.gif" width="180" alt="Overview TextOnly animated preview"> | Official - Search `1131549` on Zepp watch face store<br/><br/>Sideload - [amazfitwatchfaces.com](https://amazfitwatchfaces.com/bip/view/45565) |
+| [Overview – Colourful](src/Bip%205%20Unity%20-%20Overview%20-%20Colourful) | V1 | A vivid layout that uses contrasting colour accents to separate the time, health, activity, weather, and device-status information. | <img src="https://raw.githubusercontent.com/BlythMeister/Amazfit-Watchfaces/master/src/Bip%205%20Unity%20-%20Overview%20-%20Colourful/Preview.gif" width="180" alt="Overview Colourful animated preview"> | Official - Search `1131548` on Zepp watch face store<br/><br/>Sideload - [amazfitwatchfaces.com](https://amazfitwatchfaces.com/bip/view/45564) |
+
 #### Bip 6
 
 | Design | Current Version | Description | Previews | Installation |
