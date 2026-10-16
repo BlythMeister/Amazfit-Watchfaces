@@ -14,6 +14,7 @@ Each face can be installed via a sideload from [amazfitwatchfaces.com](https://a
 ### Bip Series
 
 * [Bip 5](devices/bip-5)
+* [Bip 5 Unity](devices/bip-5-unity)
 * [Bip 6](devices/bip-6)
 * [Bip Max](devices/bip-max)
 
