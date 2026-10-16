@@ -39,6 +39,23 @@ description: "Amazfit Bip Max Watchfaces"
   </tr>
 </table>
 
+### Overview – BigTime
+
+<table>
+  <tr>
+    <td class="watch-img">
+      <img src="/images/BipMax-Overview-BigTime.gif" alt="Overview BigTime animated preview">
+    </td>
+    <td class="watch-desc">
+      <p>A clean, information-first layout that presents the time in a large font and watch data using text labels.</p>
+      <p>
+        <strong>Official:</strong> Search <code>1131554</code> on Zepp watch face store<br/>
+        <strong>Sideload:</strong> <a href="https://amazfitwatchfaces.com/bip/view/45782">amazfitwatchfaces.com</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
 ### Overview – Colourful
 
 <table>
